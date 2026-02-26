@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-GAME_DIR="$HOME/.steam/steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser/AppData/Roaming/DarkSoulsIII"
+# Arch Desktop location:
+#/home/jonas/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser/AppData/Roaming/DarkSoulsIII/011000010432fb79/
+
+GAME_DIR="$HOME/.local/share/Steam/steamapps/compatdata/374320/pfx/drive_c/users/steamuser/AppData/Roaming/DarkSoulsIII/011000010432fb79/"
 GAME_FILE="$GAME_DIR/DS30000.sl2"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_FILE="$SCRIPT_DIR/DS30000.sl2"
