@@ -25,9 +25,12 @@ I do not recommend using these scripts or the save files within the repo as they
 #### Windows
 
 Execute it and follow the instructions:
-
 ```powershell
 .\ds3-save.ps1
+```
+If scripts are disabled on your system, you can run the following command to temporarily enable scripts for the current powershell session:
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 #### Linux
